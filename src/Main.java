@@ -4,7 +4,7 @@ public class Main {
 	private static ISubscriber subscribers [] = {
 			new SimpleSubscriber(),
 			new ReallySimpleSubscriber(),
-			new twoPowerN()
+			new twoPowerN(),new SummationSeries()
 	};
 	public static void main(String[] args) {
 		Topic mathTopic = new Topic();
