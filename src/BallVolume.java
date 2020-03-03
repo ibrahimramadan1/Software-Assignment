@@ -1,5 +1,5 @@
 import java.lang.Math;
-public class SphereVolume implements ISubscriber {
+public class BallVolume implements ISubscriber {
 
     public static double getVolume(double r)
     {
