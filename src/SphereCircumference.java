@@ -1,10 +1,13 @@
 import java.lang.Math;
 public class SphereCircumference implements ISubscriber {
 
-    public void double Circumference(double r)
+    public void double getcircumference(double r)
     {
-        double circumference= Math.PI*2*r;
-        System.out.println( "The circumference of the circle is:"+circumference) ;
+        return(Math.PI*2*r) ;
+    }
+    @Override
+    public void notifySubscriber(String input) {
+        System.out.println("Circumference of Sphere is " + getcircumference(Double.parseDouble(input)));
     }
 
 }
